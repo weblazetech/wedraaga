@@ -1,0 +1,6 @@
+{
+  "name": "WedRaaga — Bespoke Wedding Planning & Guest RSVP Studio",
+  "description": "An elegant, minimalist wedding planning platform for WedRaaga featuring curated venues, a dynamic responsive gallery with smooth parallax scrolling, interactive checklist and budget tools, and an integrated guest RSVP management system.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
