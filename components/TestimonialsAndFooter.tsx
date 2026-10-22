@@ -63,8 +63,13 @@ export default function TestimonialsAndFooter() {
           <div className="grid grid-cols-1 md:grid-cols-12 gap-10 pb-10 border-b border-[#E7E2DA]">
             {/* Brand & Mission */}
             <div className="md:col-span-5 space-y-3">
-              <div className="font-[family-name:var(--font-display)] text-2xl font-semibold text-[#1C1917]">
-                WedRaaga
+              <div className="flex items-center gap-2.5 font-[family-name:var(--font-display)] text-2xl font-semibold text-[#1C1917]">
+                <img
+                  src="/images/wedraaga/logo-icon-transparent.png"
+                  alt="WedRaaga"
+                  className="w-6 h-6 object-contain"
+                />
+                <span>WedRaaga</span>
               </div>
               <p className="text-xs sm:text-sm text-[#57534E] max-w-sm leading-relaxed">
                 Your Wedding Destination in Hyderabad, Telangana. Curating exclusive convention

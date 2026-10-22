@@ -22,6 +22,7 @@ const jetbrains = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://wedraaga.com'),
   title: 'WedRaaga — Bespoke Wedding Planning & Guest RSVP Studio',
   description:
     'An elegant, minimalist wedding planning platform for WedRaaga featuring curated venues, a dynamic responsive gallery with smooth parallax scrolling, interactive checklist and budget tools, and an integrated guest RSVP management system.',
@@ -29,6 +30,17 @@ export const metadata: Metadata = {
     title: 'WedRaaga — Bespoke Wedding Planning & Guest RSVP Studio',
     description:
       'An elegant, minimalist wedding planning platform for WedRaaga featuring curated venues, a dynamic responsive gallery with smooth parallax scrolling, interactive checklist and budget tools, and an integrated guest RSVP management system.',
+    url: 'https://wedraaga.com',
+    siteName: 'WedRaaga',
+    images: [
+      {
+        url: '/og-image.png',
+        width: 1200,
+        height: 630,
+        alt: 'WedRaaga — Bespoke Wedding Planning & Guest RSVP Studio',
+      },
+    ],
+    locale: 'en_US',
     type: 'website',
   },
   twitter: {
@@ -36,6 +48,7 @@ export const metadata: Metadata = {
     title: 'WedRaaga — Bespoke Wedding Planning & Guest RSVP Studio',
     description:
       'An elegant, minimalist wedding planning platform for WedRaaga featuring curated venues, a dynamic responsive gallery with smooth parallax scrolling, interactive checklist and budget tools, and an integrated guest RSVP management system.',
+    images: ['https://wedraaga.com/og-image.png'],
   },
 };
 

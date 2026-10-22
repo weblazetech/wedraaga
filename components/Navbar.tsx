@@ -13,12 +13,17 @@ export default function Navbar({ onOpenRsvpForm }: NavbarProps) {
   return (
     <header className="sticky top-0 z-40 h-14 md:h-16 bg-[#FAF8F5]/95 backdrop-blur-md border-b border-[#E7E2DA]">
       <div className="max-w-[1280px] mx-auto h-full flex items-center justify-between gap-8 px-4 sm:px-6 lg:px-8">
-        {/* Zone 1: Single text element wordmark */}
+        {/* Zone 1: Brand lockup with insignia */}
         <a
           href="#top"
-          className="font-[family-name:var(--font-display)] text-2xl md:text-[28px] font-semibold tracking-tight text-[#1C1917] whitespace-nowrap shrink-0 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#8C2D38]"
+          className="flex items-center gap-2.5 font-[family-name:var(--font-display)] text-2xl md:text-[28px] font-semibold tracking-tight text-[#1C1917] whitespace-nowrap shrink-0 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#8C2D38] group"
         >
-          WedRaaga
+          <img
+            src="/images/wedraaga/logo-icon-transparent.png"
+            alt="WedRaaga"
+            className="w-7 h-7 object-contain transition-transform group-hover:scale-105"
+          />
+          <span>WedRaaga</span>
         </a>
 
         {/* Zone 2: 4 concise single-line text navigation links */}
